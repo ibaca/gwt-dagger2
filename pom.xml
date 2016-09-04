@@ -41,8 +41,14 @@
         </dependency>
         <dependency>
             <groupId>com.google.dagger</groupId>
-            <artifactId>dagger</artifactId>
+            <artifactId>dagger-gwt</artifactId>
             <version>${dagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.dagger</groupId>
+            <artifactId>dagger-producers</artifactId>
+            <version>${dagger.version}</version>
+            <classifier>sources</classifier>
         </dependency>
         <dependency>
             <groupId>com.google.dagger</groupId>
@@ -52,14 +58,14 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.google.dagger</groupId>
-            <artifactId>dagger-gwt</artifactId>
-            <version>${dagger.version}</version>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava-gwt</artifactId>
+            <version>19.0</version>
         </dependency>
         <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>19.0</version>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>3.0.0</version>
         </dependency>
     </dependencies>
 
