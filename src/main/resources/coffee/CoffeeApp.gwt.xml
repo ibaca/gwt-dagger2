@@ -3,7 +3,6 @@
     <inherits name="com.google.gwt.user.User"/>
     <inherits name="com.google.gwt.user.theme.clean.Clean"/>
     <inherits name="dagger.Dagger"/>
-    <inherits name="dagger.producers.Producers"/>
     <inherits name="com.google.common.util.concurrent.Concurrent"/>
 
     <entry-point class="coffee.client.CoffeeApp"/>

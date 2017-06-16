@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- dependencies -->
         <gwt.version>2.8.0</gwt.version>
-        <dagger.version>2.6</dagger.version>
+        <dagger.version>2.11</dagger.version>
     </properties>
 
     <dependencyManagement>
@@ -42,6 +42,11 @@
         <dependency>
             <groupId>com.google.dagger</groupId>
             <artifactId>dagger-gwt</artifactId>
+            <version>${dagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.dagger</groupId>
+            <artifactId>dagger-producers</artifactId>
             <version>${dagger.version}</version>
         </dependency>
         <dependency>
