@@ -9,7 +9,8 @@
 
     <define-configuration-property name="project.version" is-multi-valued="false"/>
 
+    <collapse-all-properties/>
+
     <source path="client"/>
     <public path="public"/>
-    <super-source path="super"/>
 </module>
